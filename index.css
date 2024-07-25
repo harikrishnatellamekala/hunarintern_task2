@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://s3-alpha.figma.com/hub/file/3308245820/8b7c3334-17a9-473d-b503-a60d65686231-cover.png");
+    background-size: cover;
+    background-attachment: fixed; /* This will keep the background fixed during scrolling */
+}
+
+/* Header Styles */
+header {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Add margin reset to nav ul for consistency */
+    text-align: center; /* Center align the nav items */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    margin: 0px auto; /* Center the main content */
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Restrict the width of the main content for better readability */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2196f3;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
